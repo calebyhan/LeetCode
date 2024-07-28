@@ -1,5 +1,12 @@
+"""
+https://leetcode.com/problems/remove-element/
+
+Python 3.12.2
+"""
+
+
 class Solution:
-    def removeElement(self, nums: List[int], val: int) -> int:
+    def removeElement(self, nums: list[int], val: int) -> int:
         nums1 = []
         for i in nums:
             if i != val:

@@ -1,5 +1,11 @@
+"""
+https://leetcode.com/problems/3sum/
+
+Python 3.12.2
+"""
+
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums = sorted(nums)
         ret = []
         for i in range(len(nums)):

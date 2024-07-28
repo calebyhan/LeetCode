@@ -1,5 +1,11 @@
+"""
+https://leetcode.com/problems/search-insert-position/
+
+Python 3.12.2
+"""
+
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def searchInsert(self, nums: list[int], target: int) -> int:
         try:
             return nums.index(target)
         except:
